@@ -1,0 +1,73 @@
+body{
+    background-image:url("fondo.jpg");
+}
+
+#caja{
+    border-radius: 6%;
+    width:400px;
+    height: 250px;
+    background-color:black;
+    padding-top: 12%;
+    padding-left: 12%;
+    justify-content: center;
+}
+
+.etiqueta{
+    color:beige;
+    font-family: 'Courier New', Courier, monospace;
+    font:bold
+}
+
+.titulo{
+    color:rgb(240, 240, 236);
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 3%;
+    font-size:50px;
+}
+
+.titulo1{
+    color:rgb(82, 82, 7);
+    font-family: 'Courier New', Courier, monospace;
+    justify-content:flex-start;
+    font-size:70px;
+}
+
+main{
+    margin:300px;
+    margin-top:20px;
+    width: 500px;
+}
+
+section{
+    margin:450px;
+    margin-top:5px;
+    width: 500px;
+}
+
+
+.texto{
+    color:rgb(17, 17, 15);
+    width: 350px;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 350px;
+    background-color: #f33a21; 
+    height: 40px;
+    font-size: large;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border:4px #fff; */
+    box-shadow: #333;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: #45a049;
+}
+
+#imagenes{
+    border-radius: 10%;
+    border-color: blue;
+}

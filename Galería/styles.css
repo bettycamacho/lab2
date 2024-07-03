@@ -1,0 +1,91 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: #2196F3;
+    padding:10px;
+    margin-top: 1px;
+}
+.grid-item{
+    background-color: rgba(255,255,255,0.8);
+    border:1px solid rgba(0,0,0,0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align:center;
+    cursor:pointer;
+    transition: background-color 1s linear;
+    border-radius: 10px;
+}
+
+.grid-item:hover{
+    background-color: #333;
+    text-transform:uppercase;
+}
+
+.valorsGridItem{
+    border-radius: 10%;
+    border:2px solid rgba(0,0,0,0.8);
+    background-color: #C0392B;
+    cursor:pointer;
+    transition: background-color 1s linear;
+}
+
+.valorsGridItem:hover{
+    background-color: black;
+}
+
+.btn{
+    width: 300px;
+    background-color: #f33a21; 
+    height: 40px;
+    font-size: large;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: #333;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: #45a049;
+}
+
+.tituloArticulo{
+    background-color: darkslategrey;
+    height: 40px;
+    border-radius: 20px;
+    color: darkseagreen;
+}
+
+.valor{
+    background-color: #3cd328;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+}
+
+.cabecera{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    margin-top: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+
+img{
+    transition: width 2s;
+}
+
+img:hover{
+    width: 100px;
+}
